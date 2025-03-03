@@ -118,7 +118,7 @@ def check_for_updates():
                 # Сохраняем время последнего коммита
                 with open("last_commit_time.txt", "w") as f:
                     f.write(last_commit_time.strftime("%Y-%m-%dT%H:%M:%S"))
-                update_script = f"rm -rf osmini.py; git clone https://github.com/{GITHUB_REPO}.git; cd Osmini-AI; python osmini.py"
+                update_script = f"cd; rm -rf osmini.py; git clone https://github.com/{GITHUB_REPO}.git; cd Osmini-AI; python osmini.py"
                 os.system(update_script)
                 sys.exit(0) # Выход из программы после обновления
             else:
