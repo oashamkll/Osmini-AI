@@ -13,7 +13,7 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.prompt import Prompt, Confirm  # Добавили Prompt и Confirm
 
 # API-ключ (Храните безопасно!)
-API_KEY = "YOUR_API_KEY"  # Замените на свой API-ключ!
+API_KEY = "AIzaSyCbFlT9BmmhCx7oSLwM7KG15Cx8oc_lHbY"  # Замените на свой API-ключ!
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 GITHUB_REPO = "oashamkll/Osmini-AI"  # Ваш репозиторий
 GITHUB_BRANCH = "main"  # Ветка
