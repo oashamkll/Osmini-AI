@@ -11,7 +11,7 @@ from rich.text import Text
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
 # API-ключ (Храните безопасно!)
-API_KEY = "AIzaSyBHwt0HqpvIUnFnsrN_HO8ZOtnFLIn79_g"
+API_KEY = "AIzaSyCbFlT9BmmhCx7oSLwM7KG15Cx8oc_lHbY"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
 console = Console()
